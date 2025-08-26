@@ -1,6 +1,97 @@
+@import "./variables";
+
 .grid {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 1rem;
+  display: grid;
+  // grid-template-columns: repeat(3, 1.5fr);
+  // grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  justify-items: center;
+  width: 90%;
+  padding-bottom: 2rem;
+}
+
+.game {
+  position: relative;
+  border: 2px solid $light-grey;
+  padding: 1rem 2.5rem;
+  border-radius: $border-radius;
+  width: 100%;
+  height: 8rem;
+  box-sizing: border-box;
+  overflow: scroll;
+
+  transition: box-shadow 0.3s ease, border-image 0.3s ease, background 0.3s ease,
+    color 0.1s ease;
+
+  h2 {
+    font-size: 1.6rem;
+    margin: auto;
+  }
+
+  p {
+    margin: 0.5rem 0 0 0;
+    font-size: 0.9rem;
+    opacity: 0.8;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: $border-radius;
+    background: linear-gradient(to bottom, #ffffb2, #ff7a5e, #ff46af);
+    opacity: 0;
+    z-index: 0;
+    transition: opacity 0.4s;
+    pointer-events: none;
+  }
+
+  &__icon {
+    position: absolute;
+    color: rgba(255, 255, 255, 1);
+    bottom: 0rem;
+    right: 0rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    opacity: 0;
+    transition: opacity 0.15s, bottom 0.2s, right 0.2s;
+    pointer-events: none;
+  }
+
+  &:hover {
+    border: 2px solid transparent;
+
+    cursor: pointer;
+
+    > * {
+      position: relative;
+      z-index: 1;
+    }
+
+    &::after {
+      opacity: 1;
+    }
+
+    p {
+      color: white;
+    }
+
+    .game__icon {
+      position: absolute;
+      opacity: 1;
+      bottom: 1rem;
+      right: 1rem;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  }
+
+  .game {
+    height: 100%;
+  }
 }

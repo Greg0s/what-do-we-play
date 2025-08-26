@@ -1,5 +1,7 @@
 import { Game } from "./game";
 import gamesData from "../games.json";
+import "../App.scss";
+import "../stylesheets/games.scss";
 
 export function Games({ players }: { players: number }) {
   return (

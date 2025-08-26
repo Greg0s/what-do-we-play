@@ -1,3 +1,5 @@
+import { BsArrowUpLeft } from "react-icons/bs";
+
 type GameProps = {
   name: string;
   description: string;
@@ -6,14 +8,10 @@ type GameProps = {
 
 export function Game({ name, description, playLink }: GameProps) {
   return (
-    <div className="game">
+    <a target="_blank" href={playLink} className="game">
       <h2>{name}</h2>
       <p>{description}</p>
-      <button>
-        <a target="_blank" href={playLink}>
-          Play
-        </a>
-      </button>
-    </div>
+      <BsArrowUpLeft className="game__icon" />
+    </a>
   );
 }

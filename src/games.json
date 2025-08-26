@@ -1,121 +1,135 @@
 [
   {
     "name": "UwUFUFU",
-    "description": "",
+    "description": "Vote in tournaments about various subjects",
     "minPlayers": 1,
     "maxPlayers": 1,
     "link": "https://www.uwufufu.com/"
   },
   {
     "name": "Wikipedia Speedruns!",
-    "description": "",
+    "description": "Race through Wikipedia pages to reach a target article as fast as possible.",
     "minPlayers": 1,
     "maxPlayers": -1,
     "link": "https://wikispeedruns.com/"
   },
   {
     "name": "More or Less game",
-    "description": "",
+    "description": "Guess if the next item is higher or lower in value compared to the previous.",
     "minPlayers": 1,
     "maxPlayers": 1,
     "link": "https://moreorless.io/games"
   },
   {
     "name": "DAMN DOG",
-    "description": "",
+    "description": "Guess the Wikihow article's title",
     "minPlayers": 1,
     "maxPlayers": 1,
     "link": "https://damn.dog/"
   },
   {
     "name": "Framed",
-    "description": "",
+    "description": "Guess the movie by seeing one frame at a time.",
     "minPlayers": 1,
     "maxPlayers": 1,
     "link": "https://framed.wtf/"
   },
   {
     "name": "The Higher Lower Game",
-    "description": "What gets Googled more?",
+    "description": "Guess what gets Googled more.",
     "minPlayers": 1,
     "maxPlayers": 1,
     "link": "http://www.higherlowergame.com/"
   },
   {
     "name": "Le Petit Bac",
-    "description": "Online version of the BaccalaurÃ©at game",
+    "description": "Word game where you find words starting with the same letter.",
     "minPlayers": 2,
     "maxPlayers": 45,
     "link": "https://petitbac.net/"
   },
   {
     "name": "Connect the stars",
-    "description": "An endless movie trivia game",
+    "description": "Find links betweens celebrities",
     "minPlayers": 1,
     "maxPlayers": 1,
     "link": "https://connectthestars.xyz/"
   },
   {
     "name": "Make it Meme",
-    "description": "Meme game online",
+    "description": "Compete to create the funniest memes from random templates.",
     "minPlayers": 2,
     "maxPlayers": 30,
     "link": "https://makeitmeme.com"
   },
   {
     "name": "Tier List Maker",
-    "description": "",
+    "description": "Rank items, characters, or ideas into custom tier lists.",
     "minPlayers": 1,
     "maxPlayers": 1,
     "link": "https://tiermaker.com/"
   },
   {
     "name": "Guess The.Game",
-    "description": "",
+    "description": "Identify a video game from a progressively revealed screenshot.",
     "minPlayers": 1,
     "maxPlayers": 1,
     "link": "https://guessthe.game/"
   },
   {
     "name": "Tixid",
-    "description": "Dixit Online",
+    "description": "A storytelling card game where players use abstract illustrations to spark creative clues and imaginative guesses.",
     "minPlayers": 3,
     "maxPlayers": 8,
     "link": "https://play-tixid.online/en/login"
   },
   {
     "name": "BombParty",
-    "description": "Explosive word game",
+    "description": "Type words with given letter combos before the bomb explodes.",
     "minPlayers": 2,
     "maxPlayers": 16,
     "link": "https://jklm.fun/"
   },
   {
     "name": "PopSauce",
-    "description": "Blind test for your eyes",
+    "description": "Party trivia game mixing pop culture, images, and quick guesses.",
     "minPlayers": 2,
     "maxPlayers": 30,
     "link": "https://jklm.fun/"
   },
   {
     "name": "OpenGuessr",
-    "description": "GeoGuessr for free",
+    "description": "Guess locations on a map based on Street View images.",
     "minPlayers": 1,
     "maxPlayers": -1,
     "link": "https://openguessr.com/"
   },
   {
     "name": "sQuiz",
-    "description": "General knowledge quiz",
+    "description": "Online quiz game with multiple categories and fast-paced challenges.",
     "minPlayers": 1,
     "maxPlayers": 200,
     "link": "https://squiz.gg/"
   },
   {
     "name": "Codenames",
-    "description": "The famous board game online",
+    "description": "Give clever clues to help your team guess the right words on the grid.",
     "minPlayers": 4,
     "maxPlayers": 4,
     "link": "https://codenames.game/"
+  },
+  {
+    "name": "skribbl.io",
+    "description": "Draw and guess words.",
+    "minPlayers": 1,
+    "maxPlayers": 20,
+    "link": "https://skribbl.io/"
+  },
+  {
+    "name": "Gartic Phone",
+    "description": "Telephone Game with drawings and texts.",
+    "minPlayers": 2,
+    "maxPlayers": 50,
+    "link": "https://garticphone.com/"
   }
 ]

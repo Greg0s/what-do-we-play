@@ -1,0 +1,121 @@
+[
+  {
+    "name": "UwUFUFU",
+    "description": "",
+    "minPlayers": 1,
+    "maxPlayers": 1,
+    "link": "https://www.uwufufu.com/"
+  },
+  {
+    "name": "Wikipedia Speedruns!",
+    "description": "",
+    "minPlayers": 1,
+    "maxPlayers": -1,
+    "link": "https://wikispeedruns.com/"
+  },
+  {
+    "name": "More or Less game",
+    "description": "",
+    "minPlayers": 1,
+    "maxPlayers": 1,
+    "link": "https://moreorless.io/games"
+  },
+  {
+    "name": "DAMN DOG",
+    "description": "",
+    "minPlayers": 1,
+    "maxPlayers": 1,
+    "link": "https://damn.dog/"
+  },
+  {
+    "name": "Framed",
+    "description": "",
+    "minPlayers": 1,
+    "maxPlayers": 1,
+    "link": "https://framed.wtf/"
+  },
+  {
+    "name": "The Higher Lower Game",
+    "description": "What gets Googled more?",
+    "minPlayers": 1,
+    "maxPlayers": 1,
+    "link": "http://www.higherlowergame.com/"
+  },
+  {
+    "name": "Le Petit Bac",
+    "description": "Online version of the BaccalaurÃ©at game",
+    "minPlayers": 2,
+    "maxPlayers": 45,
+    "link": "https://petitbac.net/"
+  },
+  {
+    "name": "Connect the stars",
+    "description": "An endless movie trivia game",
+    "minPlayers": 1,
+    "maxPlayers": 1,
+    "link": "https://connectthestars.xyz/"
+  },
+  {
+    "name": "Make it Meme",
+    "description": "Meme game online",
+    "minPlayers": 2,
+    "maxPlayers": 30,
+    "link": "https://makeitmeme.com"
+  },
+  {
+    "name": "Tier List Maker",
+    "description": "",
+    "minPlayers": 1,
+    "maxPlayers": 1,
+    "link": "https://tiermaker.com/"
+  },
+  {
+    "name": "Guess The.Game",
+    "description": "",
+    "minPlayers": 1,
+    "maxPlayers": 1,
+    "link": "https://guessthe.game/"
+  },
+  {
+    "name": "Tixid",
+    "description": "Dixit Online",
+    "minPlayers": 3,
+    "maxPlayers": 8,
+    "link": "https://play-tixid.online/en/login"
+  },
+  {
+    "name": "BombParty",
+    "description": "Explosive word game",
+    "minPlayers": 2,
+    "maxPlayers": 16,
+    "link": "https://jklm.fun/"
+  },
+  {
+    "name": "PopSauce",
+    "description": "Blind test for your eyes",
+    "minPlayers": 2,
+    "maxPlayers": 30,
+    "link": "https://jklm.fun/"
+  },
+  {
+    "name": "OpenGuessr",
+    "description": "GeoGuessr for free",
+    "minPlayers": 1,
+    "maxPlayers": -1,
+    "link": "https://openguessr.com/"
+  },
+  {
+    "name": "sQuiz",
+    "description": "General knowledge quiz",
+    "minPlayers": 1,
+    "maxPlayers": 200,
+    "link": "https://squiz.gg/"
+  },
+  {
+    "name": "Codenames",
+    "description": "The famous board game online",
+    "minPlayers": 4,
+    "maxPlayers": 4,
+    "link": "https://codenames.game/"
+  }
+]

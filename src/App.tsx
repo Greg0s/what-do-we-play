@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <header>
-        <h1>What do we play?</h1>
+        <h1>What we play?</h1>
         <div className="how-many">
           <div className="how-many__buttons">
             <button

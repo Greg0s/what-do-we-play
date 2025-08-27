@@ -21,6 +21,7 @@ function App() {
               aria-label="Add player"
               onClick={() => handleChange(players + 1)}
               type="button"
+              className="how-many__buttons__plus"
             >
               <FaPlus />
             </button>
@@ -35,6 +36,7 @@ function App() {
               aria-label="Remove player"
               onClick={() => handleChange(players - 1)}
               type="button"
+              className="how-many__buttons__minus"
             >
               <FaMinus />
             </button>

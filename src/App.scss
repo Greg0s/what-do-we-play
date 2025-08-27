@@ -91,7 +91,6 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  // color: $text-color;
   padding: 6rem 0;
   background-image: url("./assets/banner.jpg");
   background-size: cover;
@@ -120,8 +119,9 @@ h1 {
   font-size: 1.5rem;
   color: white;
   width: fit-content;
-  padding: 1rem;
   text-align: center;
+  padding-top: 2rem;
+  cursor: pointer;
 
   input[type="number"]::-webkit-outer-spin-button,
   input[type="number"]::-webkit-inner-spin-button {
@@ -138,29 +138,42 @@ h1 {
     text-align: center;
   }
 
+  &:hover {
+    button {
+      opacity: 1;
+    }
+  }
+
   &__buttons {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 0.5rem;
 
     button {
+      position: absolute;
       opacity: 0;
-      cursor: pointer;
       display: flex;
       justify-content: center;
       border-radius: 1rem;
       background-color: rgba(255, 255, 255, 0.3);
       padding: 0.2rem;
       font-weight: 700;
+      width: 6rem;
+      cursor: pointer;
 
       transition: opacity 0.2s;
     }
 
-    &:hover {
-      button {
-        opacity: 1;
-      }
+    &__plus {
+      top: -2.4rem;
+      left: 50%;
+    }
+
+    &__minus {
+      bottom: -2.6rem;
+      left: 50%;
     }
   }
 }
